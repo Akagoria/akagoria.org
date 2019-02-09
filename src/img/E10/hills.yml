@@ -1,0 +1,25 @@
+seed: 2917861310
+generator:
+  name: 'hills'
+  parameters:
+    count: 100
+    radius_min: 0.3
+    radius_max: 0.6
+  size:
+    width: 513
+    height: 513
+  output:
+    type: 'colored'
+    parameters:
+      sea_level: 0.5
+      shaded: true
+    filename: 'hills.pnm'
+finalizer:
+  name: 'playability'
+  parameters:
+    sea_level: 0.5
+    unit_size: 1
+    building_size: 9
+    unit_talus: 8.0
+    building_talus: 2.0
+    output_intermediates: false

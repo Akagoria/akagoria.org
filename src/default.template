@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <meta name="description" content="Akagoria, the revenge of Kalista, a single-player RPG in an open world with a top-down view">
+    <meta name="author" content="Julien Bernard">
+
+    <title>{title:} &mdash; Akagoria, the revenge of Kalista</title>
+
+    <link rel="icon" type="image/png" href="{relocatable: favicon.png}">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="{relocatable: custom.css}">
+  </head>
+  <body class="text-center">
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+      <header class="custom-header mb-auto">
+        <div class="inner">
+          <h3 class="custom-header-brand"><img src="{relocatable: akagoria.png}" class="img-fluid" alt="Akagoria" /></h3>
+          <nav class="nav nav-custom-header justify-content-center">
+            {menu: {options: {mi: {in_menu: true}, sort: true}}}
+            <!--
+            <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link active" href="screenshots.html">Screenshots</a>
+            <a class="nav-link" href="devel.html">Development</a>
+            -->
+          </nav>
+        </div>
+      </header>
+
+      <main role="main" class="inner">
+        <webgen:block name="content" />
+      </main>
+
+      <footer class="custom-footer mt-auto">
+        <div class="inner">
+          <p><a href="http://www.gnu.org/copyleft/gpl-3.0.html">Copyright</a> &copy; 2013&ndash;2019 Julien Bernard</p>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

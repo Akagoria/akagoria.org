@@ -1,0 +1,28 @@
+seed: 183134861
+generator:
+  name: 'fractal'
+  parameters:
+    noise: 'simplex'
+    noise_parameters:
+      curve: 'cubic'
+    octaves: 1
+    lacunarity: 2.0
+    persistence: 0.5
+  size:
+    width: 513
+    height: 513
+  output:
+    type: 'colored'
+    parameters:
+      sea_level: 0.5
+      shaded: false
+    filename: 'simplex_noise.pnm'
+finalizer:
+  name: 'playability'
+  parameters:
+    sea_level: 0.5
+    unit_size: 1
+    building_size: 9
+    unit_talus: 8.0
+    building_talus: 2.0
+    output_intermediates: false

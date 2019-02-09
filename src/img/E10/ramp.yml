@@ -1,0 +1,11 @@
+generator:
+  name: 'ramp'
+  size:
+    width: 512
+    height: 32
+  output:
+    type: 'colored'
+    parameters:
+      sea_level: 0.5
+      shaded: false
+    filename: 'ramp.pnm'

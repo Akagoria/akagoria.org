@@ -1,0 +1,19 @@
+seed: 1275779124
+generator:
+  name: 'fractal'
+  parameters:
+    noise: 'value'
+    noise_parameters:
+      curve: 'linear'
+    octaves: 1
+    lacunarity: 2.0
+    persistence: 0.5
+  size:
+    width: 129
+    height: 129
+  output:
+    type: 'colored'
+    parameters:
+      sea_level: 0.5
+      shaded: false
+    filename: 'mini_value_linear.pnm'

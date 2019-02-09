@@ -1,0 +1,23 @@
+---
+title: Development
+in_menu: true
+sort_info: 20
+---
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <h2>Licence</h2>
+
+      <p class="text-justify">Akagoria is a <a href="http://www.gnu.org/philosophy/free-sw.html">free software</a> and is distributed under the <a href="http://www.gnu.org/copyleft/gpl-3.0.html">GPLv3 licence</a>, including the assets.</p>
+
+      <h2>Source code</h2>
+      <p class="text-justify">The main source code of Akagoria is available in the <a href="https://github.com/Akagoria">Akagoria project on GitHub</a>.</p>
+
+      <p class="text-justify">Akagoria is developped with <a href="https://gamedevframework.github.io/">Gamedev Framework (gf)</a>.</p>
+    </div>
+    <div class="col">
+      <h2>IRC</h2>
+      <p class="text-justify">If you want to talk directly with the developpers, you can join the <a href="irc://chat.freenode.net/akagoria">#akagoria IRC channel on freenode</a>.</p>
+    </div>
+  </div>
+</div>

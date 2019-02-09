@@ -1,0 +1,8 @@
+--- name:tag.menu pipeline:ruby
+
+out = ''
+context[:nodes].each do |node, children|
+  style, link = Webgen::Tag::Menu.menu_item_details(context.dest_node, node, context.content_node.lang, '', !children.nil?, context[:config])
+  out << "<a #{style} href=\"#{context.dest_node.route_to(node).to_s}\">#{node.meta_info['title']}</a>"
+end
+context.content = out

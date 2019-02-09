@@ -1,0 +1,7 @@
+--- paths
+/robots.txt:
+  handler: copy
+
+--- alcn
+/img/:
+  proxy_path: ../index.html
