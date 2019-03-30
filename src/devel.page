@@ -13,7 +13,11 @@ sort_info: 20
       <h2>Source code</h2>
       <p class="text-justify">The main source code of Akagoria is available in the <a href="https://github.com/Akagoria">Akagoria project on GitHub</a>.</p>
 
-      <p class="text-justify">Akagoria is developped with <a href="https://gamedevframework.github.io/">Gamedev Framework (gf)</a>.</p>
+      <p class="text-justify">Akagoria uses <a href="https://gamedevframework.github.io/">Gamedev Framework (gf)</a> as its main library. It is developed at the same time as Akagoria.</p>
+
+      <h2>Documentation</h2>
+      <p class="text-justify">The <a href="https://akagoria.github.io/">developer's documentation</a> is intended for people developing the game. It contains many information about about the world of Akagoria is built.</p>
+
     </div>
     <div class="col">
       <h2>IRC</h2>
